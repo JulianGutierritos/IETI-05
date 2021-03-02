@@ -64,6 +64,7 @@ export class AddTodo extends Component {
                         
                         <MenuItem value={"In Progress"}>In Proggress</MenuItem>
                         <MenuItem value={"Ready"}>Ready</MenuItem>
+                        <MenuItem value={"Done"}>Done</MenuItem>
                     </Select>
 
                     <br/>

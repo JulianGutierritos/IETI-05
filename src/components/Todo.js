@@ -4,6 +4,7 @@ import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
 import CheckCircleIcon from '@material-ui/icons/CheckCircle';
 import WatchLaterIcon from '@material-ui/icons/WatchLater';
+import ThumbUpIcon from '@material-ui/icons/ThumbUp';
 import moment from "moment";
 
 export class Todo extends React.Component {
@@ -14,6 +15,10 @@ export class Todo extends React.Component {
         if (this.props.status === "Ready"){
             iconCard =  <CheckCircleIcon style={{position:'sticky', left:'95%', color:'green'}}>
                             </CheckCircleIcon>
+        }
+        else if (this.props.status === "Done"){
+            iconCard =  <ThumbUpIcon style={{position:'sticky', left:'95%', color:'blue'}}>
+                            </ThumbUpIcon>
         }
         else{
             iconCard =  <WatchLaterIcon  style={{position:'sticky', left:'95%', color:'yellow'}}>

@@ -10,22 +10,6 @@
 [![react-router](https://img.shields.io/badge/dependencies-react--router-blue)](https://reacttraining.com/react-router/)
 
 
-
-## Credenciales: 
-    - email: julian@mail.com
-    - contraseña: 1234
-
-## Despliegue en Heroku ##
-
-[![Heroku](https://www.herokucdn.com/deploy/button.png)](https://react-todo-jg.herokuapp.com/)
-
-
-## Despliegue en AWS 
-
-```
-https://master.d3jj17t9ak47fa.amplifyapp.com/
-```
-
 React project using Material-UI library.
 
 ## Part 1: Create a Login Component
