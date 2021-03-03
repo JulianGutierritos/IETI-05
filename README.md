@@ -11,19 +11,10 @@
 
 
 
-## Credenciales: 
-    - email: julian@mail.com
-    - contraseña: 1234
-
-## Despliegue en Heroku ##
-
-[![Heroku](https://www.herokucdn.com/deploy/button.png)](https://react-todo-jg.herokuapp.com/)
-
-
-## Despliegue en AWS 
+## Despliegue en FireBase
 
 ```
-https://master.d3jj17t9ak47fa.amplifyapp.com/
+https://taks-planner-app-23546.web.app
 ```
 
 React project using Material-UI library.
